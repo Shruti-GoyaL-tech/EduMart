@@ -694,7 +694,7 @@ export default function SellPage() {
                                 </div>
                              ) : (
                                  <div className="text-center bg-slate-800/60 p-10 rounded-xl">
-                                    <p className="text-xl text-slate-400">You haven't listed any items yet.</p>
+                                    <p className="text-xl text-slate-400">You haven&apos;t listed any items yet.</p>
                                  </div>
                              )}
                         </div>

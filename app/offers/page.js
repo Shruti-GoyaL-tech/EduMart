@@ -205,7 +205,7 @@ export default function MyOffersPage() {
                             ))
                         ) : (
                             <div className="text-center bg-slate-800/60 p-10 rounded-xl">
-                                <p className="text-xl text-slate-400">You haven't made any offers yet.</p>
+                                <p className="text-xl text-slate-400">You haven&apos;t made any offers yet.</p>
                                 <Link href="/buy" className="mt-4 inline-block bg-indigo-600 text-white font-semibold py-2 px-6 rounded-lg hover:bg-indigo-500 transition-colors">
                                     Browse the Market
                                 </Link>

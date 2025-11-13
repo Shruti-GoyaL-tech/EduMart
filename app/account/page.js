@@ -264,7 +264,7 @@ export default function AccountPage() {
           
           {/* Items Bought */}
           <div>
-            <h2 className="text-3xl font-bold mb-6">Items You've Bought</h2>
+            <h2 className="text-3xl font-bold mb-6">Items You&apos;ve Bought</h2>
             <div className="space-y-6">
               {history.bought.length > 0 ? (
                 history.bought.map(item => (
@@ -285,14 +285,14 @@ export default function AccountPage() {
                   </div>
                 ))
               ) : (
-                <p className="text-slate-400">You haven't bought any items yet.</p>
+                <p className="text-slate-400">You haven&apos;t bought any items yet.</p>
               )}
             </div>
           </div>
 
           {/* Items Sold */}
           <div>
-            <h2 className="text-3xl font-bold mb-6">Items You've Sold</h2>
+            <h2 className="text-3xl font-bold mb-6">Items You&apos;ve Sold</h2>
             <div className="space-y-6">
               {history.sold.length > 0 ? (
                 history.sold.map(item => (
@@ -313,7 +313,7 @@ export default function AccountPage() {
                   </div>
                 ))
               ) : (
-                <p className="text-slate-400">You haven't sold any items yet.</p>
+                <p className="text-slate-400">You haven&apos;t sold any items yet.</p>
               )}
             </div>
           </div>
